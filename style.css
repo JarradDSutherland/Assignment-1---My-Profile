@@ -49,12 +49,33 @@ body {
     background-color: #555;
     color: white;
   }
-  li a.active {
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  li a:active {
     background-color: #04AA6D;
     color: white;
   }
+  img {
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition:transform 0.50s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.link{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;   
+    display:block; 
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
     
-    li a:hover:not(.active) {
-      background-color: #555;
-      color: white;
-    }
+    
