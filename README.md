@@ -5,7 +5,7 @@ Personal Information
 Jarrad Sutherland - S3927760 - S3927760@student.rmit.edu.au
 I am 32 years old and happily married with 3 children. My wife and I were both born in Australia and the only language spoken at home is English. I graduated Secondary college in 2007 and attended Chisholm TAFE the following year studying games programming, Cert IV. After completing the certificate, I enrolled in the Australian defence force reserves where I learned valuable lifelong lessons around leadership and teamwork. I have been working as a restaurant manager for the last 10 years and have since completed a Diploma of Management (Hospitality).
 
-Interest in IT - One paragraph each
+Interest in IT -
 What is your interest in IT?
 My interest in IT was mostly fascination of video games when I was young, which turned into an interest in the Internet and the ease of access to information. I still have vivid memories of loading a website on our Pentium one for 10 minutes on a dial-up connection, only for the landline to ring and the internet to drop out. 
 Since then, the advancements in IT have grown exponentially and my passion for it has grown alongside it. I’m specifically excited for the future in Virtual Reality and AI as these areas are only just getting started and the next 5 years should be incredible.
@@ -35,8 +35,9 @@ Personal Profile
 
 <Insert 16personalities test results here>
 
-Results of Education planner
-Results of Career Explorer test
+<Results of Education planner>
+  
+<Results of Career Explorer test>
 
 The results of these tests are more accurate than I first thought they would be, I was initially taken aback by the 16personalities results as I didn’t feel it accurately described me, but after diving deeper into the meanings I found myself agreeing on nearly every point, so I was pleasantly surprised. 
 The learning style test again was close to the mark, I do feel I am slightly more of a tactile learner than visual, but I do often find myself visualizing how I want things to look or what to do next, even if when learning I prefer a hands-on approach.
