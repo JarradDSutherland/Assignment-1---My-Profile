@@ -30,29 +30,31 @@
 <h1>Project Idea</h1>
 
     <p>
-        My project focuses on the idea of introducing a new smart device for residential homes in the form of a smart washing line. This device would detect rainfall and automatically cover your washing with a waterproof blind and when it stops raining, automatically open back up again so your washing can continue to dry. This would be designed as a retrofit product that would be made in multiple sizes and shapes in order to fit a large number of existing clotheslines. The materials used should also be cost effective in order to be available to a wide audience.  
+        My project focuses on the idea of introducing a new smart device for residential homes in the form of the ‘Smart Washing Line’. This device would detect rainfall and automatically cover your washing with a waterproof blind and when it stops raining, automatically open back up again so your washing can continue to dry. This would be designed as a retrofit product that would be made in multiple sizes and shapes in order to fit a large number of existing clotheslines. The materials used should also be cost effective in order to be available to a wide audience.   
     </p>
 
     <p>
-        The main motivation for this idea came from running to collect the washing off the line when it suddenly starts raining. In Melbourne the mean rainfall less than 1mm per year is 100 days (Bureau of Meteorology, 2021). Which means 27% of the year has a chance of rain and therefore a likelihood of households choosing to use a clothes dryer instead of risking there washing getting wet. According to (Australian Bureau of Statistics, 2009) 34% of Victorians use their dryer ‘depending on the weather’, which may turn out to be just a short downfall. With this in mind, it seemed logical to find a solution that would allow the use of a washing line in all weather conditions, whilst remaining outdoors to get the freshest drying experience.
+        The main motivation for this idea came from running to collect the washing off the line when it suddenly starts raining, which tends to happen often. In Melbourne the mean rainfall less than 1mm per year is 100 days (Bureau of Meteorology, 2021). Which means 27% of the year has a chance of rain and therefore a likelihood of households choosing to use a clothes dryer instead of risking there washing getting wet. According to (Australian Bureau of Statistics, 2009) 34% of Victorians use their dryer ‘depending on the weather’, which may turn out to be just a short downfall. With this in mind, it seemed logical to find a solution that would allow the use of a washing line in all weather conditions, whilst remaining outdoors to get the freshest drying experience.
     </p>
 
     <p>
-        The product would be designed in multiple sizes to suit most commercially available wall mounted clotheslines. Mounted to the top of the clothesline is roller blinds on tracks, that would deploy waterproof coverings over the front and sides of the washing line. The system is run by a rain sensor attached to a raspberry pi board that when detecting the first drops of rain, would send a signal to the motorized blinds and open them, covering the clothes and avoiding unnecessary rain coverage. When the rain sensor dries the signal will stop and the blinds would curl back up, allowing the clothes to continue to dry in the natural elements. 
+        The product would be designed in multiple sizes to suit most commercially available wall mounted clotheslines. Mounted to the top of the clothesline is roller blinds on tracks, that would deploy waterproof coverings over the front and sides of the washing line. The system is run by a rain sensor attached to a raspberry pi board that when detecting the first drops of rain, would send a signal to the motorized blinds and open them, covering the clothes and avoiding unnecessary rain coverage. When the rain sensor dries the signal will stop and the blinds would curl back up, allowing the clothes to continue to dry in the natural elements.  
     </p>
 
     <p>
         Also attached to the raspberry pi would be a Wi-Fi dual-band adapter to ensure maximum range to the washing line, allowing the device to be controlled by an application on a smart phone. The smart phone app would be designed using Java, giving simple controls and data over the device using a Wi-Fi signal.
-        This would allow the user to pre-emptively lower the blinds before the rain hits and raise them again before the sensor has dried.
+        This would allow the user to pre-emptively lower the blinds before the rain hits and raise them again before the sensor has dried. 
+
     </p>
 
     <p>
-      The raspberry pi and sensors would need to be connected to a battery source which would be stored internally. The battery source would be powered by solar panels, ensuring that the battery won’t need to be replaced regularly.
-      Advanced models of this design could include humidity sensors, temperature sensors and a light sensor, to detect the chance of rainfall prior to the rain sensor being activated. This data could be transferred to the smart phone app and present a percentage chance of rainfall and allow the user to decide whether to close the blinds early.
+        The raspberry pi and sensors would need to be connected to a battery source which would be stored internally. The battery source would be powered by solar panels, ensuring that the battery won’t need to be replaced regularly.  
+        Advanced models of this design could include humidity sensors, temperature sensors and a light sensor, to detect the chance of rainfall prior to the rain sensor being activated. This data could be transferred to the smart phone app and present a percentage chance of rainfall and allow the user to decide whether to close the blinds early.
+
     </p>
 
     <p>
-        The software required would be written in python, as this is the language used for Raspberry Pi boards. The coding would remain in an ‘off’ state until the rain sensor detects water and will send a signal to the roller blind motors to activate them. At this time it would need a time delay code added to ensure the program does not continue to repeat. It will then monitor the state of the rain sensor, for as long as the sensor is wet, the blinds should remain in the open position. When the sensor has dried the coding will send another signal to activate the roller blind motors and return them to the closed position.
+        The software required would be written in python, as this is the language used for Raspberry Pi boards. The coding would remain in an ‘off’ state until the rain sensor detects water and will send a signal to the roller blind motors to activate them. At this time it would need a time delay code added to ensure the program does not continue to repeat. It will then monitor the state of the rain sensor, for as long as the sensor is wet, the blinds should remain in the open position. When the sensor has dried the coding will send another signal to activate the roller blind motors and return them to the closed position. 
     </p>
     <p>
         The Hardware required for this project would be:
